@@ -32,9 +32,7 @@ Python (There's no way you shouldn't have this one.)
 ```
 
 ### Dependencies
-'''
-    [opnepyxl](https://openpyxl.readthedocs.io/en/stable/) - A Python library to read/write Excel 2010 xlsx/xlsm files 
-'''
+* [opnepyxl](https://openpyxl.readthedocs.io/en/stable/) - A Python library to read/write Excel 2010 xlsx/xlsm files 
 
 ## Built With
 
@@ -43,9 +41,7 @@ Python (There's no way you shouldn't have this one.)
 
 ## Contributing
 
-There is no contribution.
-
-tically do basic versioning with C Language soon. Not so complex but far more basic.
+There is no contribution. Probably...
 
 ## Authors
 
