@@ -1,10 +1,8 @@
 # Assignment Specialized - RNG BP Cut on CM
-EX Name : Team LM - Enrollment System for C CLI (ERLM_C-CLI)
-An alternative method to do assignment instead of wasting a short bond paper just for data gathering.
+REASON from Creation: I'm tired from my teacher's performance from being BS (Not Intended Use of Word) by giving random activities that are not seem to be making students to be competent from that subject.
 
 ## Introduction / Information
-RNG BP Cut on CM is one of my first github repository with OOP Coding Method instead of procedural programming. The goal of this one is to generate data.
-And also put those data in Excel without any formatting except data added has 'cm' on it.
+A Python Script RNG BP Cut on CM is one of my First Github Repository with OOP Coding Method instead of Procedural Programming. The goal of this one is to generate data and also put those data in Excel without any formatting except it has been appended with 'cm' on it.
 
 ## Abilities
  - Add Data On Excel
