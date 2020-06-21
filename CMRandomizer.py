@@ -9,14 +9,13 @@ class Randomize_App:
     def __init__(self, start_int = 0, end_int = 0, result = 0, attempts = 0):
         if version_info < (3, 5, 0):
             raise NotImplementedError("Cannot run this module from Python Version that is below than 3.5.0. Please Update your Python Version!")
-        else:
-            self.start_int = start_int
-            self.end_int = end_int
-            self.result = result
-            self.attempts = attempts
-            self.XLSX_Worker = Workbook()
-            self.Active_XLSX = self.XLSX_Worker.active
-            self.Datetime_Create = datetime.now()
+        self.start_int = start_int
+        self.end_int = end_int
+        self.result = result
+        self.attempts = attempts
+        self.XLSX_Worker = Workbook()
+        self.Active_XLSX = self.XLSX_Worker.active
+        self.Datetime_Create = datetime.now()
 
     def Welcome_Intro(self):
         subprocess.call("CLS", shell=True)
@@ -24,7 +23,6 @@ class Randomize_App:
         print("Exclusively Created for EDA which uses bond paper to do data.")
         print("Data will be automatically added to Excel... Choice the data at your own sake.\n")
         self.Active_XLSX.title = input('Please enter your Filename -> ')
-        return
 
     def Intro_DataGet(self):
         print("Data Needed is 30 Attempts of Bond Paper Cutting")
